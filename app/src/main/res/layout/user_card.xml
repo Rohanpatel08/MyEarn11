@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ac14112_layout_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ac112_row_name"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/ac112_row_added"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="80dp"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ac112_row_pandl"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="135dp"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ac112_row_holdings"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="190dp"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ac112_row_phone"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="245dp"
+            android:paddingLeft="7dp"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ac112_row_withdrawal"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="300dp"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/ac112_row_address"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="355dp"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/ac151_row_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:text="Name:"
+            android:textColor="#000405"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ac151_row_Code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80dp"
+            android:text="Added:"
+            android:textColor="#000405"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ac151_row_Joiningamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="135dp"
+            android:text="Password:"
+            android:textColor="#000405"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ac151_row_Winningamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="190dp"
+            android:text="Holdings:"
+            android:textColor="#000405"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ac151_row_Maximumplayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="245dp"
+            android:text="Phone:"
+            android:textColor="#000405"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ac151_row_Minimumplayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="300dp"
+            android:text="Withdrawal:"
+            android:textColor="#000405"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CC06_row_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="355dp"
+            android:text="Address:"
+            android:textSize="20sp"
+            android:textColor="#000405"
+            android:textStyle="bold"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

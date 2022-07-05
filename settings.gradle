@@ -1,0 +1,2 @@
+rootProject.name = "MyEarn11"
+include ':app'
